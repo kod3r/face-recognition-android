@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/linearLayout1"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:weightSum="1" >
+
+	    <LinearLayout
+	        android:id="@+id/linearLayout2"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.25" >
+
+	        <Button
+	            android:id="@+id/addRecords"
+	            android:layout_width="0dp"
+	            android:layout_height="80dp"
+	            android:layout_weight="0.25"
+	            android:text="Add Records" />
+
+	        <Button
+	            android:id="@+id/requestMatch"
+	            android:layout_width="0dp"
+	            android:layout_height="80dp"
+	            android:layout_weight="0.25"
+	            android:text="Request Match" />
+
+	        <Button
+	            android:id="@+id/cameraTest"
+	            android:layout_width="0dp"
+	            android:layout_height="80dp"
+	            android:layout_weight="0.25"
+	            android:text="Take Picture" />
+
+	        <Button
+	            android:id="@+id/readData"
+	            android:layout_width="0dp"
+	            android:layout_height="80dp"
+	            android:layout_weight="0.25"
+	            android:text="Read Data" />
+
+	    </LinearLayout>
+
+	    <TextView
+	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:text="LBP FACE RECOGNITION"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:text="Elizabeth Yesudas"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:text="Divya Racha"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:text="Ashish Mathew"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:text="A. Prakruti Prasad"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+	</LinearLayout>
+

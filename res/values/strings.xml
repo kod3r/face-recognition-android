@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LBP</string>
+    <string name="Name">Name</string>
+    <string name="DOB">Date of Birth</string>
+    <string name="Roll">Roll Number</string>
+    <string name="Branch">Branch</string>
+    <string-array name="Branch">
+    	<item>COMPS</item>
+    	<item>IT</item>
+    	<item>EXTC</item>
+    	<item>ETRX</item>
+    	<item>MECH</item></string-array>
+</resources>

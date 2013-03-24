@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+  	android:baselineAligned ="false"
+    >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Name" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/etPersonName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:inputType="text" >
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1"
+                android:text="Date of Birth" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/etDateOfBirth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.58"
+                android:inputType="text" >
+            </EditText>
+
+            <Button
+                android:id="@+id/myDatePickerButton"
+                android:layout_width="wrap_content"
+                android:text="&lt;>" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Class" >
+            </TextView>
+
+            <Spinner
+                android:id="@+id/spClass"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:prompt="@string/Branch" >
+            </Spinner>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Roll No" />
+
+            <EditText
+                android:id="@+id/etRollNo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:inputType="text" >
+
+                <requestFocus />
+            </EditText>
+        </TableRow>
+
+
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:clickable="true"
+        android:text="Submit" />
+
+</LinearLayout>
